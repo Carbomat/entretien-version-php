@@ -23,7 +23,7 @@
 </form>
 
 <div  style="margin-top:50px;"  >
-      <button id="remove" class="btn btn-success" >
+      <button onclick="reloadcsv()" class="btn btn-success" >
     <i class="fa fa-trash"></i> Rafraichir la page
   </button>
    <div style="margin-top:50px;cursor:pointer" class="col" id="nombreRaccordableByCodePostal">
@@ -115,6 +115,7 @@
             reloadNombreRaccordableByCodePostal();
          /*  Fonction recherche qui s'active lorsqu'on tape quelque chose dans les input  */ 
           searchcp();
+       
          
         });
     </script>
